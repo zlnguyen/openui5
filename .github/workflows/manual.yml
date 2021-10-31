@@ -21,6 +21,5 @@ jobs:
         with:
           node-version: '14'
       - run: npm install
-      - run: npm init
       - run: npm init -y
       - run: npm test
